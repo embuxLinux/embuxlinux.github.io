@@ -1,20 +1,22 @@
-.. Embux BusyBox/Linux documentation master file, created by
-   sphinx-quickstart on Tue Nov 28 22:37:40 2023.
-   You can adapt this file completely to your liking, but it should at least
-   contain the root `toctree` directive.
+Welcome to Embux BusyBox/Linux!
+===============================
 
-Welcome to Embux BusyBox/Linux's documentation!
-===============================================
+Embux is a Linux distribution for embedded systems, such as ATMs, arcade
+systems, In-Flight Entertainment Systems, and more. Embux can fit a very
+small footprint in comparison to Alpine Linux and other tiny distributions.
 
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
+.. warning::
 
+   Embux is currently in development. It is not for a production
+   environment and should only be used for tests.
 
+Introduction
+------------
 
-Indices and tables
-==================
+-  Get started:
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
+   -  `Install using Embux CLI <install_cli>`__
+   -  `Install on x86 PC <install>`__
+   -  `Install on Raspberry Pi <install_raspberry>`__
+   -  `Migrate from Windows CE <mscompact_to_embux>`__
+   -  `Getting help <support>`__
