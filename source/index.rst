@@ -1,9 +1,11 @@
 Welcome to Embux BusyBox/Linux!
 ===============================
 
-Embux is a Linux distribution for embedded systems, such as ATMs, arcade
-systems, In-Flight Entertainment Systems, and more. Embux can fit a very
+Embux is a Linux distribution for modern embedded systems. Embux can fit a very
 small footprint in comparison to Alpine Linux and other tiny distributions.
+
+Embux is designed in the true spirit of Linux and FOSS. The Embux source code
+is open-source and is licensed under the GNU General Public License.
 
 .. warning::
 
