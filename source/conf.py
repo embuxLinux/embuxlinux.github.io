@@ -14,7 +14,7 @@ release = '24.4'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ["myst-parser", "sphinx_rtd_theme"]
+extensions = ["myst-parser", "sphinx_rtd_theme", "sphinx_external_toc"]
 
 templates_path = ['_templates']
 exclude_patterns = []
