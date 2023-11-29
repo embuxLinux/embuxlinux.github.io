@@ -14,7 +14,7 @@ release = '24.4'
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
 
-extensions = ["myst-parser", "sphinx_rtd_theme", "sphinx_external_toc"]
+extensions = ["myst_parser", "sphinx_rtd_theme", "sphinx_external_toc"]
 external_toc_path = "_index.yaml"  # optional, default: _toc.yml
 external_toc_exclude_missing = True  # optional, default: False
 
