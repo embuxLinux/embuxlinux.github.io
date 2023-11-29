@@ -1,3 +1,5 @@
 root: index
 entries:
-- file: install
+  - file: install
+  - url: https://github.com/embuxLinux/embux
+    title: Embux Source Code
