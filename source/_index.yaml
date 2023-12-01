@@ -1,5 +1,5 @@
 root: index
 entries:
-  - file: install.rst
+  - file: install.md
   - url: https://github.com/embuxLinux/embux
     title: Embux Source Code
