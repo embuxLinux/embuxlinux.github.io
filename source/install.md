@@ -62,27 +62,31 @@ If you can't find out how to do that, be vigilant of malicious images.
 :::{tab-item} Linux and macOS
 :sync: linux
 
-1. **Download Embux App:** Download the appropriate Embux app shell script (.sh) from the Embux GitHub repository. Please note there are different versions of the shell script for Linux and Mac, the macOS version is labelled `darwin`. You can find a link to the repository in the sidebar. For macOS, you will need to install [Homebrew](https://brew.sh).
+1. **Download Embux App:** Download the appropriate Embux app shell script (.sh) from the Embux GitHub repository.
+   * Please note there are different versions of the shell script for Linux and Mac, the macOS version is labelled `darwin`.
+   * You can find a link to the repository in the sidebar.
+   * For macOS (not Linux), you will need to install [Homebrew](https://brew.sh). Don't worry, installing Homebrew is a very simple task. You have to run one single command.
+   * **Warning:** Don't use packages provided by your system's repositories, AUR, etc. These repositories have been known for hosting outdated software.
 
-2. **Ensure Execution Permissions:** Make sure the script has executable permissions. You can do this by running the following command in the terminal:
+3. **Ensure Execution Permissions:** Make sure the script has executable permissions. You can do this by running the following command in the terminal:
 
     ```bash
     chmod +x embux-app-*.sh
     ```
 
-3. **Optional: Sideload a Custom Embux Image:** If you want to install Embux Beta, a testing version of Embux, or any modified version of Embux, store the ISO in `~/.embux.iso`.
+4. **Optional: Sideload a Custom Embux Image:** If you want to install Embux Beta, a testing version of Embux, or any modified version of Embux, store the ISO in `~/.embux.iso`.
 
-4. **Run Embux App:** Run the Embux app by executing the following command:
+5. **Run Embux App:** Run the Embux app by executing the following command:
 
     ```bash
     ./embux-app.sh
     ```
 
-5. **Follow Embux App Instructions:** The Embux app will guide you through the installation process, including selecting the target device, and initiating the installation.
+6. **Follow Embux App Instructions:** The Embux app will guide you through the installation process, including selecting the target device, and initiating the installation.
 
-6. **Monitor Installation Progress:** Observe the progress bar in the Embux app as the installation unfolds. Once the installation is complete, a notification will appear.
+7. **Monitor Installation Progress:** Observe the progress bar in the Embux app as the installation unfolds. Once the installation is complete, a notification will appear.
 
-7. **Boot Target Device:** Once the installation is complete, power cycle the target device, remove the Raspberry Pi OS SD card (if you use a Pi), and insert the Embux device.. The device should boot into the newly installed Embux system.
+8. **Boot Target Device:** Once the installation is complete, power cycle the target device, remove the Raspberry Pi OS SD card (if you use a Pi), and insert the Embux device. The device should boot into the newly installed Embux system.
 :::
 
 :::{tab-item} Windows
@@ -92,17 +96,20 @@ If you can't find out how to do that, be vigilant of malicious images.
 The Embux app is not designed for Windows. Consider installing Linux on the source computer, then follow the procedure for Linux.
 ```
 
-1. **Download Embux App:** Download the appropriate Embux app executable (.exe) from the Embux GitHub repository. You can find a link to the repository in the sidebar.
+1. **Download Embux App:** Download the appropriate Embux app executable (.exe) from the Embux GitHub repository.
+   * Please note there are 3 builds for Windows: `x86`, `x66_64`, and `arm`. You can still use `x86_64` and `x86` on ARM, but they are not native to ARM processors. Similarly you can still use `x86` on `x86_64` but not `arm`.
+   * You can find a link to the repository in the sidebar.
+   * **Warning:** Don't use packages provided by chocolatey, etc. These repositories have been known for hosting outdated software.
 
-2. **Optional: Sideload a Custom Embux Image:** If you want to install Embux Beta, a testing version of Embux, or any modified version of Embux, store the ISO in `C:\Embux.iso`.
+3. **Optional: Sideload a Custom Embux Image:** If you want to install Embux Beta, a testing version of Embux, or any modified version of Embux, store the ISO in `C:\Embux.iso`.
 
-3. **Run Embux App:** Run the Embux app by finding it in your downloads folder.
+4. **Run Embux App:** Run the Embux app by finding it in your downloads folder.
 
-4. **Follow Embux App Instructions:** The Embux app will guide you through the installation process, including selecting the target device, and initiating the installation.
+5. **Follow Embux App Instructions:** The Embux app will guide you through the installation process, including selecting the target device, and initiating the installation.
 
-5. **Monitor Installation Progress:** Observe the progress bar in the Embux app as the installation unfolds. Once the installation is complete, a notification will appear.
+6. **Monitor Installation Progress:** Observe the progress bar in the Embux app as the installation unfolds. Once the installation is complete, a notification will appear.
 
-6. **Boot Target Device:** Once the installation is complete, power cycle the target device, remove the Raspberry Pi OS SD card (if you use a Pi), and insert the Embux device. The device should boot into the newly installed Embux system.
+7. **Boot Target Device:** Once the installation is complete, power cycle the target device, remove the Raspberry Pi OS SD card (if you use a Pi), and insert the Embux device. The device should boot into the newly installed Embux system.
 
 :::
 
