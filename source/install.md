@@ -79,7 +79,7 @@ If you can't find out how to do that, be vigilant of malicious images.
 5. **Run Embux App:** Run the Embux app by executing the following command:
 
     ```bash
-    ./embux-app.sh
+    ./embux-app-*.sh
     ```
 
 6. **Follow Embux App Instructions:** The Embux app will guide you through the installation process, including selecting the target device, and initiating the installation.
