@@ -54,7 +54,7 @@ Before embarking on the Embux installation process, ensure that you have the nec
 :sync: win
 
 ```{warning}
-The Embux app is not officially supported on Windows. Consider installing Linux on the source computer, then follow the procedure for Linux.
+The Embux app is not designed for Windows. Consider installing Linux on the source computer, then follow the procedure for Linux.
 ```
 
 1. **Download Embux App:** Download the appropriate Embux app executable (.exe) from the Embux GitHub repository. You can find a link to the repository in the sidebar.
@@ -71,14 +71,30 @@ The Embux app is not officially supported on Windows. Consider installing Linux 
 
 :::
 
+:::{tab-item} Other or ISO
+:sync: other
+
+```{warning}
+The Embux app is not supported on platforms other than Linux, Mac and Windows. Thus an alternative way using an ISO flasher will be used in these instructions.
+```
+
+1. **Download Embux ISO:** Download the appropriate Embux image (.iso) from the Embux GitHub repository. You can find a link to the repository in the sidebar.
+
+3. **Run ISO Flasher:** Look for a flashing tool available on your system. Most systems do not come with one, but offer one in their repositories. You can try [BalenaEtcher](etcher.balena.io).
+
+4. **Import ISO:** Import the ISO into your flasher. Here's the format to help you find it: `embux-MAJOR.MINOR-ARCH-TYPE.iso`.
+
+5. **Monitor Installation Progress:** Observe the progress bar or another way of tracking the progress as the flashing unfolds.
+
+6. **Boot Target Device:** Once the installation is complete, power cycle the target device, remove the Raspberry Pi OS SD card (if you use a Pi), and insert the Embux device. The device should boot into the newly installed Embux system.
+
+:::
+
 ::::
 
 ## Signing
 
-Remember to validate the Embux image.
-
-* Embux Template image: `foo`
-* Embux Tiny image: `bar`
+Remember to validate the Embux image. Custom images could have malware, including 
 
 ### Instructions
 
@@ -101,6 +117,11 @@ Open the Embux app and enter the Konami code:
 ↑ ↑ ↓ ↓ ← → ← → B A
 ```
 :::
+
+:::{tab-item} Other or ISO
+:sync: other
+
+Refer to your system's manual for instructions on how to verify file checksums.
 
 ::::
 
