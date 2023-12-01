@@ -6,15 +6,15 @@ sd_hide_title: true
 
 <!-- derived from https://github.com/executablebooks/sphinx-design/blob/rtd-theme/docs/index.md -->
 ::::::{div} landing-title
-:style: "padding: 0.1rem 0.5rem 0.6rem 0; background-image: linear-gradient(315deg, #438ff9 0%, #1572f4 74%); clip-path: polygon(0px 0px, 100% 0%, 100% 100%, 0% calc(100% - 1.5rem)); -webkit-clip-path: polygon(0px 0px, 100% 0%, 100% 100%, 0% calc(100% - 1.5rem));"
+:style: "padding: 0.1rem 0.5rem 0.6rem 0; background-image: linear-gradient(315deg, #438ff9 0%, #1572f4 74%);"
 
 ::::{grid}
 :reverse:
 :gutter: 2 3 3 3
-:margin: 4 4 1 2
+:margin: 2 1 1 2
 
 :::{grid-item}
-:columns: 12 8 8 8
+:columns: 8 8 8 8
 :child-align: justify
 :class: sd-text-white
 
