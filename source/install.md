@@ -14,7 +14,7 @@ Before embarking on the Embux installation process, ensure that you have the nec
 
 * **Technical Expertise:** Possess a strong understanding of Linux systems, embedded systems, and networking concepts.
 
-* **Target Computer:** A target computer with at least 10 MB of RAM. This could be a Raspberry Pi, an industrial control system, or any other embedded device with sufficient memory.
+* **Target Computer:** A target computer with at least 10 MB of RAM. **For Raspberry Pis, see [here](install_raspberry.html).**
 
 * **Source Computer:** A source computer with access to the internet and the ability to install software. This could be your personal laptop, a desktop workstation, or even a cloud-based virtual machine.
 
@@ -86,7 +86,7 @@ If you can't find out how to do that, be vigilant of malicious images.
 
 7. **Monitor Installation Progress:** Observe the progress bar in the Embux app as the installation unfolds. Once the installation is complete, a notification will appear.
 
-8. **Boot Target Device:** Once the installation is complete, power cycle the target device, remove the Raspberry Pi OS SD card (if you use a Pi), and insert the Embux device. The device should boot into the newly installed Embux system.
+8. **Boot Target Device:** Once the installation is complete, power cycle the target device, and insert the Embux device. The device should boot into the newly installed Embux system.
 :::
 
 :::{tab-item} Windows
@@ -109,7 +109,7 @@ The Embux app is not designed for Windows. Consider installing Linux on the sour
 
 6. **Monitor Installation Progress:** Observe the progress bar in the Embux app as the installation unfolds. Once the installation is complete, a notification will appear.
 
-7. **Boot Target Device:** Once the installation is complete, power cycle the target device, remove the Raspberry Pi OS SD card (if you use a Pi), and insert the Embux device. The device should boot into the newly installed Embux system.
+7. **Boot Target Device:** Once the installation is complete, power cycle the target device, and insert the Embux device. The device should boot into the newly installed Embux system.
 
 :::
 
@@ -128,7 +128,7 @@ The Embux app is not supported on platforms other than Linux, Mac and Windows. T
 
 5. **Monitor Installation Progress:** Observe the progress bar or another way of tracking the progress as the flashing unfolds.
 
-6. **Boot Target Device:** Once the installation is complete, power cycle the target device, remove the Raspberry Pi OS SD card (if you use a Pi), and insert the Embux device. The device should boot into the newly installed Embux system.
+6. **Boot Target Device:** Once the installation is complete, power cycle the target device, and insert the Embux device. The device should boot into the newly installed Embux system.
 
 :::
 
