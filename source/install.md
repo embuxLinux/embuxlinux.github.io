@@ -80,7 +80,7 @@ The Embux app is not supported on platforms other than Linux, Mac and Windows. T
 
 1. **Download Embux ISO:** Download the appropriate Embux image (.iso) from the Embux GitHub repository. You can find a link to the repository in the sidebar.
 
-3. **Run ISO Flasher:** Look for a flashing tool available on your system. Most systems do not come with one, but offer one in their repositories. You can try [BalenaEtcher](etcher.balena.io).
+3. **Run ISO Flasher:** Look for a flashing tool available on your system. Most systems do not come with one, but offer one in their repositories. You can try [BalenaEtcher](https://etcher.balena.io).
 
 4. **Import ISO:** Import the ISO into your flasher. Here's the format to help you find it: `embux-MAJOR.MINOR-ARCH-TYPE.iso`.
 
