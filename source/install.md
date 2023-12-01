@@ -80,7 +80,7 @@ Remember to validate the Embux image.
 * Embux Template image: `foo`
 * Embux Tiny image: `bar`
 
-To validate the image use the following command:
+### Instructions
 
 ::::{tab-set}
 
