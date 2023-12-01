@@ -1,10 +1,10 @@
 # Embux Installation Guide
 
-```{warning} Disclaimer
+```{warning}
 Please note that there are two distributions named Embux. The Embux distribution discussed in this guide is a lightweight Linux distribution specifically designed for embedded systems. It is not to be confused with another Embux distribution, which is less popular and may not be suitable for all applications.
 ```
 
-```{warning} Disclaimer
+```{warning}
 Embux installation is not a trivial task and requires technical expertise. It is recommended for experienced users only.
 ```
 
@@ -17,6 +17,8 @@ Before embarking on the Embux installation process, ensure that you have the nec
 * **Target Computer:** A target computer with at least 10 MB of RAM. This could be a Raspberry Pi, an industrial control system, or any other embedded device with sufficient memory.
 
 * **Source Computer:** A source computer with access to the internet and the ability to install software. This could be your personal laptop, a desktop workstation, or even a cloud-based virtual machine.
+
+* **Storage**: A USB drive or SD card with at least 2 GB. Insert it into the source computer.
 
 ## Installation Process
 
@@ -51,8 +53,8 @@ Before embarking on the Embux installation process, ensure that you have the nec
 :::{tab-item} Windows
 :sync: win
 
-```{warning} Disclaimer
-Embux installation is not a trivial task and requires technical expertise. It is recommended for experienced users only.
+```{warning}
+The Embux app is not officially supported on Windows. Consider installing Linux on the source computer, then follow the procedure for Linux.
 ```
 
 1. **Download Embux App:** Download the appropriate Embux app executable (.exe) from the Embux GitHub repository. You can find a link to the repository in the sidebar.
@@ -65,15 +67,46 @@ Embux installation is not a trivial task and requires technical expertise. It is
 
 5. **Monitor Installation Progress:** Observe the progress bar in the Embux app as the installation unfolds. Once the installation is complete, a notification will appear.
 
-6. **Boot Target Device:** Once the installation is complete, power cycle the target device, remove the Raspberry Pi OS SD card (if you use a Pi), and insert the Embux device.. The device should boot into the newly installed Embux system.
+6. **Boot Target Device:** Once the installation is complete, power cycle the target device, remove the Raspberry Pi OS SD card (if you use a Pi), and insert the Embux device. The device should boot into the newly installed Embux system.
 
+:::
+
+::::
+
+## Signing
+
+Remember to validate the Embux image.
+
+* Embux Template image: `foo`
+* Embux Tiny image: `bar`
+
+To validate the image use the following command:
+
+::::{tab-set}
+
+:::{tab-item} Linux and macOS
+:sync: linux
+Run this command in the directory where you downloaded the Embux app:
+
+```
+./embux-app-*.sh --sign
+```
+:::
+
+:::{tab-item} Windows
+:sync: win
+
+Open the Embux app and enter the Konami code:
+```
+↑ ↑ ↓ ↓ ← → ← → B A
+```
 :::
 
 ::::
 
 ## Additional Considerations
 
-* **malpeza Package Manager:** Embux employs a lightweight package manager called `malpeza`. To install `malpeza`, execute the `embux_getmalpeza` command. You will need to connect to the ethernet (Embux does not support Wi-Fi) to run this command.
+* **malpeza Package Manager:** Embux offers a lightweight package manager called `malpeza`. To install `malpeza`, execute the `embux_getmalpeza` command. You will need to connect to the ethernet (Embux does not support Wi-Fi) to run this command.
 
 * **Keyboard Layout:** Embux defaults to the `en-US` keyboard layout. To change the keyboard layout, run the `embuxcfg select kbd.layout` command and choose your preferred layout.
 
