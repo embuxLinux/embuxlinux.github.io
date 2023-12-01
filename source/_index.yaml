@@ -1,5 +1,14 @@
 root: index
-entries:
-  - file: install.md
-  - url: https://github.com/embuxLinux/embux
-    title: Embux Source Code
+subtrees:
+- caption: Installation
+  numbered: false
+  entries:
+  - file: install
+  - file: install_raspberry
+  - file: install_cli
+- caption: GitHub
+  entries:
+  - title: Embux Repository
+    url: https://github.com/embuxLinux/embux
+  - title: Docs Repository
+    url: https://github.com/embuxLinux/embuxlinux.github.io
