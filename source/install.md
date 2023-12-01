@@ -20,6 +20,41 @@ Before embarking on the Embux installation process, ensure that you have the nec
 
 * **Storage**: A USB drive or SD card with at least 2 GB. Insert it into the source computer.
 
+## Signing
+
+Remember to validate the Embux image. Custom images could have malware, including software that could brick the entire device.
+
+### Instructions
+
+::::{tab-set}
+
+:::{tab-item} Linux and macOS
+:sync: linux
+Run this command in the directory where you downloaded the Embux app:
+
+```
+./embux-app-*.sh --sign
+```
+:::
+
+:::{tab-item} Windows
+:sync: win
+
+Open the Embux app and enter the Konami code:
+```
+↑ ↑ ↓ ↓ ← → ← → B A
+```
+:::
+
+:::{tab-item} Other or ISO
+:sync: other
+
+Refer to your system's manual for instructions on how to verify file checksums.
+
+If you can't find out how to do that, be vigilant of malicious images.
+
+::::
+
 ## Installation Process
 
 ::::{tab-set}
@@ -89,39 +124,6 @@ The Embux app is not supported on platforms other than Linux, Mac and Windows. T
 6. **Boot Target Device:** Once the installation is complete, power cycle the target device, remove the Raspberry Pi OS SD card (if you use a Pi), and insert the Embux device. The device should boot into the newly installed Embux system.
 
 :::
-
-::::
-
-## Signing
-
-Remember to validate the Embux image. Custom images could have malware, including 
-
-### Instructions
-
-::::{tab-set}
-
-:::{tab-item} Linux and macOS
-:sync: linux
-Run this command in the directory where you downloaded the Embux app:
-
-```
-./embux-app-*.sh --sign
-```
-:::
-
-:::{tab-item} Windows
-:sync: win
-
-Open the Embux app and enter the Konami code:
-```
-↑ ↑ ↓ ↓ ← → ← → B A
-```
-:::
-
-:::{tab-item} Other or ISO
-:sync: other
-
-Refer to your system's manual for instructions on how to verify file checksums.
 
 ::::
 
