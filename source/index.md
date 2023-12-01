@@ -6,7 +6,7 @@ sd_hide_title: true
 
 <!-- derived from https://github.com/executablebooks/sphinx-design/blob/rtd-theme/docs/index.md -->
 ::::::{div} landing-title
-:style: "padding: 0.1rem 0.5rem 0.6rem 0; background-image: linear-gradient(315deg, #438ff9 0%, #1572f4 74%);"
+:style: "padding: 0.1rem 0.1rem 0.1rem 0; background-image: linear-gradient(315deg, #438ff9 0%, #1572f4 74%); margin-bottom: 10px; border-radius: 10px;"
 
 ::::{grid}
 :reverse:
