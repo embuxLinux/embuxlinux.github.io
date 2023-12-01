@@ -26,7 +26,7 @@ html_context = {
   'display_github': True,
   'github_user': 'embuxLinux',
   'github_repo': 'embuxlinux.github.io',
-  'github_version': 'main/',
+  'github_version': 'main/source/',
 }
 
 # -- Options for HTML output -------------------------------------------------
