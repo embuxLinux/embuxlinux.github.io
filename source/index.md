@@ -10,7 +10,7 @@ sd_hide_title: true
 
 ::::{grid}
 :reverse:
-:gutter: 2 3 3 3
+:gutter: 3 3 3 3
 :margin: 2 1 1 2
 
 :::{grid-item}
