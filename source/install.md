@@ -59,7 +59,7 @@ The Embux app is not officially supported on Windows. Consider installing Linux 
 
 1. **Download Embux App:** Download the appropriate Embux app executable (.exe) from the Embux GitHub repository. You can find a link to the repository in the sidebar.
 
-2. **Optional: Sideload a Custom Embux Image:** If you want to install Embux Beta, a testing version of Embux, or any modified version of Embux, store the ISO in `~/.embux.iso`.
+2. **Optional: Sideload a Custom Embux Image:** If you want to install Embux Beta, a testing version of Embux, or any modified version of Embux, store the ISO in `C:\Embux.iso`.
 
 3. **Run Embux App:** Run the Embux app by finding it in your downloads folder.
 
