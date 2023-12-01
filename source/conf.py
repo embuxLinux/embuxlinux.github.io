@@ -22,7 +22,12 @@ external_toc_exclude_missing = True  # optional, default: False
 templates_path = ['_templates']
 exclude_patterns = []
 
-
+html_context = {
+  'display_github': True,
+  'github_user': 'embuxLinux',
+  'github_repo': 'embuxlinux.github.io',
+  'github_version': 'main',
+}
 
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
