@@ -28,7 +28,7 @@ html_context = {
   'github_repo': 'embuxlinux.github.io',
   'github_version': 'main/source/',
   'logo_only': True,
-  'html_logo': 'elipson.png',
+  'html_logo': 'embuxlogo.png',
 }
 
 # -- Options for HTML output -------------------------------------------------
