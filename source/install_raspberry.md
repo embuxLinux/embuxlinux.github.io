@@ -5,7 +5,7 @@ Raspberry Pis are based on ARM processors, so this means we will use an ARM imag
 
 ## Requirements
 
-* **Raspberry Pi:** A Raspberry Pi. This document covers Raspberry Pis 3 and 4. Other Raspberry Pis are supported officially but are less common and thus not documented here. This device will later be referred to as a "Pi".
+* **Raspberry Pi:** A Raspberry Pi. This document covers Raspberry Pis 3 to 5. Other Raspberry Pis are supported officially but are less common and thus not documented here. This device will later be referred to as a "Pi".
 * **Computer:** Besides a Pi, a larger computer.
 * **SD Card:** An SD card. This is where the Embux system will be stored. Pis do not have a hard disk so they rely on portable storage solutions like SD cards. A USB is also supported. **Don't flash the old Pi OS SD card, as we will be keeping it as a backup.**
 
