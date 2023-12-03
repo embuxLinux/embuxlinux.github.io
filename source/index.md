@@ -6,9 +6,10 @@ sd_hide_title: true
 
 <!-- derived from https://github.com/executablebooks/sphinx-design/blob/rtd-theme/docs/index.md -->
 ::::::{div} landing-title
-:style: "padding: 0.1rem 0.1rem 0.1rem 0; background-image: linear-gradient(315deg, #438ff9 0%, #1572f4 74%); margin-bottom: 10px; border-radius: 10px;"
+:style: "padding: 0.1rem 0.1rem 0.1rem 0; background-image: linear-gradient(315deg, #438ff9 0%, #1572f4 74%); margin-bottom: 10px; border-radius: 10px; padding: 10px; color: white"
 
-# Embux
+![EmbuxLogo2](https://github.com/embuxLinux/embuxlinux.github.io/assets/115214762/707b27cd-2bb5-42c4-bec4-ba2ce7cde33a)
+
 A Linux distribution specialized for embedded devices. Runs on a variety of devices, from a tiny computer to a toaster (not recommended).
 
 ```{button-ref} install
