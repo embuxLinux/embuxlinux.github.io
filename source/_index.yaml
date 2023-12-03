@@ -12,3 +12,7 @@ subtrees:
     url: https://github.com/embuxLinux/embux
   - title: Docs Repository
     url: https://github.com/embuxLinux/embuxlinux.github.io
+- caption: Reference
+  numbered: false
+  entries:
+  - file: epsilon
