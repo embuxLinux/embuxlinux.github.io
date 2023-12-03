@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = 'Embux BusyBox/Linux'
+project = 'Embux'
 copyright = '2023, Embux Project'
 author = 'Embux Project'
 release = '24.4'
@@ -27,6 +27,8 @@ html_context = {
   'github_user': 'embuxLinux',
   'github_repo': 'embuxlinux.github.io',
   'github_version': 'main/source/',
+  'logo_only': True,
+  'html_logo': 'elipson.png',
 }
 
 # -- Options for HTML output -------------------------------------------------
