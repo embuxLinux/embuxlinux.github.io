@@ -46,10 +46,11 @@ The Embux source code is [open-source](https://github.com/embuxLinux/embux) and 
 ::: {grid-item-card} Fast
 Embux only uses about 12 MiB of RAM, and only about 2 GB of disk space. It is powered by BusyBox, a tiny executable containing critical tools.
 :::
+
 :::
 
 ::::::{div} journey-title
-:style: "background-image: linear-gradient(315deg, #438ff9 0%, #1572f4 74%); margin-bottom: 10px; border-radius: 10px; padding: 30px; color: white"
+:style: "background-image: linear-gradient(315deg, #438ff9 0%, #1572f4 74%); margin-top: 10px; border-radius: 10px; padding: 30px; color: white"
 
 Ready for an adventure?
 
