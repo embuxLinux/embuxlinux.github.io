@@ -26,6 +26,7 @@ Get Started
 ::::::
 
 ::: {grid} 2
+:gutter: 1
 
 ::: {grid-item-card} Lightweight
 Embux is very lightweight, and can fit a very small footprint in comparison to Alpine Linux and other tiny disributions.
@@ -38,6 +39,7 @@ Customize Embux for your computer. Use kernel modules to extend the functionalit
 :::
 
 ::: {grid} 2
+:gutter: 1
 
 ::: {grid-item-card} Open-source
 The Embux source code is [open-source](https://github.com/embuxLinux/embux) and is licensed under the GNU General Public License.
