@@ -2,7 +2,7 @@
 sd_hide_title: true
 ---
 
-# Embux
+# Homepage
 
 <!-- derived from https://github.com/executablebooks/sphinx-design/blob/rtd-theme/docs/index.md -->
 ::::::{div} landing-title
@@ -25,34 +25,50 @@ Get Started
 
 ::::::
 
-::: {grid} 2
+:::{div} sd-text-center
+## Features
+::::::
+
+::::{grid} 1 2 2 3
+:margin: 4 4 0 0
 :gutter: 1
 
-::: {grid-item-card} Lightweight
-Embux is very lightweight, and can fit a very small footprint in comparison to Alpine Linux and other tiny disributions.
+:::{grid-item-card} {octicon}`code` Open-Source
+
+100% FOSS, no explanation required.
 :::
 
-::: {grid-item-card} Hackable
-Customize Embux for your computer. Use kernel modules to extend the functionality of the core, and use Malpeza to install software.
+:::{grid-item-card} {octicon}`packages` Lightweight
+
+Extremely lightweight - based on BusyBox and [embuxctl](ctl/index.html).
 :::
 
+:::{grid-item-card} {octicon}`paintbrush` Customizable
+
+Use embuxcfg to configure your Embux system and enhance your experience.
 :::
 
-::: {grid} 2
-:gutter: 1
+:::{grid-item-card} {octicon}`sync` Stable
 
-::: {grid-item-card} Open-source
-The Embux source code is [open-source](https://github.com/embuxLinux/embux) and is licensed under the GNU General Public License.
+Not only feature updates once every April, but also 2 bug patches every month.
 :::
 
-::: {grid-item-card} Fast
-Embux only uses about 12 MiB of RAM, and only about 2 GB of disk space. It is powered by BusyBox, a tiny executable containing critical tools.
+:::{grid-item-card} {octicon}`plug` Compatible
+
+Tested on over (hmmmmmm...) devices. Over (hmmmm again...) software is tested on Embux.
 :::
 
+:::{grid-item-card} {octicon}`meter` Fast
+
+No resource-heavy bloatware, only simple tiny programs and other useful stuff.
 :::
 
-::::::{div} journey-title
-:style: "background-image: linear-gradient(315deg, #438ff9 0%, #1572f4 74%); margin-top: 10px; border-radius: 10px; padding: 30px; color: white"
+::::
+
+::::::
+
+{div} journey-title
+:style: "background-image: linear-gradient(315deg, #438ff9 0%, #1572f4 74%); margin-top: 10px; border-radius: 10px; padding: 30px; color: white; margin-bottom: 10px"
 
 Ready for an adventure?
 
