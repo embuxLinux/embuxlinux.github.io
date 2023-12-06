@@ -27,7 +27,7 @@ Get Started
 
 :::{div} sd-text-center
 ## Features
-::::::
+:::
 
 ::::{grid} 1 2 2 3
 :margin: 4 4 0 0
@@ -38,7 +38,7 @@ Get Started
 100% FOSS, no explanation required.
 :::
 
-:::{grid-item-card} {octicon}`packages` Lightweight
+:::{grid-item-card} {octicon}`package` Lightweight
 
 Extremely lightweight - based on BusyBox and [embuxctl](ctl/index.html).
 :::
@@ -65,9 +65,7 @@ No resource-heavy bloatware, only simple tiny programs and other useful stuff.
 
 ::::
 
-::::::
-
-{div} journey-title
+::::::{div} journey-title
 :style: "background-image: linear-gradient(315deg, #438ff9 0%, #1572f4 74%); margin-top: 10px; border-radius: 10px; padding: 30px; color: white; margin-bottom: 10px"
 
 Ready for an adventure?
@@ -81,4 +79,4 @@ Ready for an adventure?
 Get Started
 ```
 
-::::::
+:::::
