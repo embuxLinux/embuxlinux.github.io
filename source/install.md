@@ -1,11 +1,11 @@
-# Embux Installation Guide
-
-```{warning}
-Please note that there are two distributions named Embux. The Embux distribution discussed in this guide is a lightweight Linux distribution specifically designed for embedded systems. It is not to be confused with another Embux distribution, which is less popular and may not be suitable for all applications.
-```
+# Installation Guide
 
 ```{warning}
 Embux installation is not a trivial task and requires technical expertise. It is recommended for experienced users only.
+```
+
+```{admonition} TL;DR
+Installing Embux involves flashing it onto a USB or SD card, inserting that storage into the target, configuring that target to boot into it, then reboot it.
 ```
 
 ## Prerequisites
@@ -14,7 +14,7 @@ Before embarking on the Embux installation process, ensure that you have the nec
 
 * **Technical Expertise:** Possess a strong understanding of Linux systems, embedded systems, and networking concepts.
 
-* **Target Computer:** A target computer with at least 10 MB of RAM. **For Raspberry Pis, see [here](install_raspberry.html).**
+* **Target Computer:** A target computer with at least 10 MB of RAM. **For Raspberry Pis, see [here](/install_raspberry.html).**
 
 * **Source Computer:** A source computer with access to the internet and the ability to install software. This could be your personal laptop, a desktop workstation, or even a cloud-based virtual machine.
 
@@ -28,7 +28,7 @@ Remember to validate the Embux image. Custom images could have malware, includin
 
 ::::{tab-set}
 
-:::{tab-item} Linux and macOS
+:::{tab-item} Linux/macOS
 :sync: linux
 Run this command in the directory where you downloaded the Embux app:
 
@@ -49,9 +49,9 @@ Open the Embux app and enter the Konami code:
 :::{tab-item} Other or ISO
 :sync: other
 
-Refer to your system's manual for instructions on how to verify file checksums.
-
-If you can't find out how to do that, be vigilant of malicious images.
+```{warning}
+No known multi-platform signing solution is known by the Embux project. The closest option known is GPG. Your only hope is being vigilant of malicious images. Stay safe on the internet.
+```
 
 ::::
 
@@ -124,7 +124,7 @@ The Embux app is not supported on platforms other than Linux, Mac and Windows. T
 
 3. **Run ISO Flasher:** Look for a flashing tool available on your system. Most systems do not come with one, but offer one in their repositories. You can try [BalenaEtcher](https://etcher.balena.io).
 
-4. **Import ISO:** Import the ISO into your flasher. Here's the format to help you find it: `embux-MAJOR.MINOR-ARCH-TYPE.iso`.
+4. **Import ISO:** Import the ISO into your flasher. Here's the format to help you find it: `embux-MAJOR.MINOR-ARCH-TYPE.iso`. Start flashing the storage device.
 
 5. **Monitor Installation Progress:** Observe the progress bar or another way of tracking the progress as the flashing unfolds.
 
@@ -134,10 +134,19 @@ The Embux app is not supported on platforms other than Linux, Mac and Windows. T
 
 ::::
 
-## Additional Considerations
+## What's next?
 
-* **malpeza Package Manager:** Embux offers a lightweight package manager called `malpeza`. To install `malpeza`, execute the `embux_getmalpeza` command. You will need to connect to the ethernet (Embux does not support Wi-Fi) to run this command.
+### malpeza Package Manager {bdg-primary}`Optional`
+Embux offers a lightweight package manager called `malpeza`. To install `malpeza`, execute the `embuxcfg ensure-malpeza` command.
 
-* **Keyboard Layout:** Embux defaults to the `en-US` keyboard layout. To change the keyboard layout, run the `embuxcfg select kbd.layout` command and choose your preferred layout.
+You will need to connect to the ethernet or [setup WiFi](/wlan.html) to run this command.
 
-* **Framebuffer Tool:** Embux provides a framebuffer tool for C and some Python versions, enabling you to display text and graphics on countdowns, billboards, and other devices. Refer to the fbtool documentation in the sidebar for detailed usage instructions.
+### Keyboard Layout {bdg-danger}`Important`
+Embux defaults to the `en-US` keyboard layout. This means, for example, if your keyboard uses the `en-GB` keyboard layout, attempts to type `"` will result in typing `@`.
+
+To change the keyboard layout, run the `embuxcfg select kbd.layout` command and choose your preferred layout.
+
+### Framebuffer Tool {bdg-primary}`For Developers`
+Embux provides a framebuffer tool for C and some Python versions, enabling you to display text and graphics on countdowns, billboards, and other devices.
+
+Refer to the fbtool documentation in the sidebar for detailed usage instructions.
