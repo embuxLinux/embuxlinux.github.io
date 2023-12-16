@@ -1,6 +1,6 @@
 ---
 sd_hide_title: true
-layout: without-sidebar.html
+layout: "without-sidebar"
 ---
 
 # Homepage
