@@ -1,5 +1,9 @@
 # Installation Guide
 
+```{lead}
+A detailed guide on how to install Embux.
+```
+
 ```{warning}
 Embux installation is not a trivial task and requires technical expertise. It is recommended for experienced users only.
 ```
