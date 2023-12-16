@@ -1,6 +1,6 @@
 # Installation Guide
 
-```{lead}
+```{div} lead
 A detailed guide on how to install Embux.
 ```
 
