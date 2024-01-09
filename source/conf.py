@@ -9,7 +9,7 @@
 project = 'Embux'
 copyright = 'Embux Project'
 author = 'Embux Project'
-release = '24.4'
+release = 'E1A'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
