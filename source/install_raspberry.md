@@ -1,6 +1,6 @@
 # Embux on a Raspberry Pi
 
-This guide explains installing Embux on Raspberry Pis. Raspberry Pis are small computers around the size of a credit card.
+This guide explains installing Embux on Raspberry Pis. Raspberry Pis are small and cheap computers around the size of a credit card.
 Raspberry Pis are based on ARM processors, so this means we will use an ARM image.
 
 ## Requirements
@@ -11,7 +11,7 @@ Raspberry Pis are based on ARM processors, so this means we will use an ARM imag
 
 ## Disclaimer
 
-Tinkering with your Pi can cause damage, which could potentially brick the Raspberry Pi. Be careful with your actions.
+Tinkering with your Pi can cause damage, which could potentially brick it. Be careful with your actions.
 
 ## Instructions
 
